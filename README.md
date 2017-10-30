@@ -1,9 +1,9 @@
 # Font Awesome SASS Extension
 
-[Font Awesome](http://fontawesome.io/) is very good css library for icons if you want to know in details about it please visit  
+[Font Awesome](http://fontawesome.io/) is very good css library for icons.  
 
 ## Few challenges to work with plain font-awesome.css
-- As per my observation we are using min 10 max 30 icons from library in project, for that We are loading unnecessary 1000 lines of code.
+- As per my observation we are using min 10 max 30 icons from library in project, for that we are loading unnecessary 1000 lines of code.
 - It has html dependencies which is very difficult for maintenance. And increase one extra element. 
 - We can’t customise it. eg. can’t add in any elements.
 
