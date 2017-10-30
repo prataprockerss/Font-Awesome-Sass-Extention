@@ -13,22 +13,23 @@ Use this extension and load only icon which you are required and where you want 
 ### How to Use 
 
 **Step 1**
-```
+```sass
 @import "1-tools/_fonts"
 @import "3-modules/_font-awesome"
 ```
 
 **Step 2**
-```
+```sass
 .amazon
   &:before
-    +fa(‘fa-amazon’)
+    +fa('fa-amazon')
       //Custom style for this icon 
 
 .accordion
   li
     &:after
-      +fa(‘fa-angle-right’)
+      +fa('fa-angle-right')
         //Custom style for this icon 
         float: right
 ```
+
