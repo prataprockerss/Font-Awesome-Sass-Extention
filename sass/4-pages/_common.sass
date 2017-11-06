@@ -1,15 +1,13 @@
-.facebook
-  &:before
-    +fa('fa-facebook')
-      color: pink
+.social-media
+  li
+    a
+      padding: 20px
       font-size: em(30)
-.twitter
-  &:before
-    +fa('fa-twitter')
-      font-size: em(40)
-      color: red
-.instagram
-  &:before
-    +fa('fa-instagram')
-      font-size: em(50)
-      color: green
+    &.fb
+      a
+        &:before
+          +fa('fa-facebook')
+    &.tw
+      a
+        &:before
+          +fa('fa-twitter')
